@@ -1,101 +1,40 @@
-<html manifest="nano.manifest" >
-<head>
-    <title>Auto GoldHEN Host</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            background-image: url("host.jpg");
-            height: 80%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
+<!DOCTYPE html PUBLIC>
 
-        .loader {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            margin: -75px 0 0 -75px;
+ <head>
 
-            border: 10px solid #1f1e1e;
-            border-radius: 50%;
-            border-top: 10px solid #d40606;
-            border-left: 10px solid #d40606;
-            width: 120px;
-            height: 120px;
-            animation: spin 1s linear infinite;
-        }
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-        @keyframes spin {
-            0% {
-                transform: rotate(0deg);
-            }
+ <title>Chamvi Host</title>
+ <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-            100% {
-                transform: rotate(360deg);
-            }
-        }
+ <style type="text/css">
 
-        .info {
-            overflow: hidden;
-            position: fixed;
-            position: absolute;
-            top: 50%;
-            left: 50%;
+html, body, div, iframe { 
 
-            font-size: 45px;
-            font-family: sans-serif;
-            color: #d40606;
+margin:0;
 
-            transform: translate(-50%, -50%);
-        }
+padding:0;
 
-        .j {
-            font-size: 15px;
-            color: #d40606;
-        }
-    </style>
-<script>
-			window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Page Caching Started!!";};
-			window.applicationCache.onprogress=function(a){document.getElementById("progress").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
-			window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully!!";setTimeout(function(){document.getElementById("progress").innerHTML="Turn Off the Internet & Reopen the Page !!"; }, 1500);};
-			window.applicationCache.onnoupdate=function(){poc();};
-	        window.applicationCache.onerror=function(){poc();};
-</script>
-    <script>
-        function allset() {
-            document.getElementById("loader").style.display = "none";
-            document.getElementById("allset").style.display = "block";
-        }
+height:100%;
 
-        function awaitpl() {
-            document.getElementById("loader").style.display = "none";
-            document.getElementById("awaiting").style.display = "block";
-        }
-    </script>
-    <script src="payload.js"></script>
-    <script src="int64.js"></script>
-    <script src="rop.js"></script>
-    <script src="kexploit.js"></script>
-    <script src="webkit.js"></script>
-</head>
+}
 
-<body>
-    <h1 id=progress style='font-size:25px;text-align:center;text-shadow: 4px 4px 4px black;color:black;'></h1><br>
-    <div id="loader" class="loader"></div>
-    <div id="awaiting" class="info" style="display:none;">
-        Cargando Exploit...
-        <br />
-        <span class="j">${jndi:ldap://nsa.gov}</span>
-    </div>
+iframe {
 
-    <div id="allset" class="info" style="display:none;">
-        Exploit cargado,Cierra el Navegador!
-    </div>
+display:block;
 
-</body>
-<script>
+width:100%;
 
-</script>
+border:none; }
 
-</html>
+</style>
+
+ </head>
+
+ <body>
+
+ <iframe src="https://ora.ai/genetic-harlequin-g0j2/proyect-toki"></iframe>
+
+  </body>
+
+ </html>
